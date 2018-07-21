@@ -1,0 +1,132 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Pattern", "Repository.Pattern\Repository.Pattern.csproj", "{6E682A14-C872-4813-B620-76E108DEA683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Pattern.Ef6", "Repository.Pattern.Ef6\Repository.Pattern.Ef6.csproj", "{F68A1D19-93FB-47C1-A22B-42BEA3E4FD8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pattern", "Pattern", "{D0606C08-AC51-48D9-BC7E-BDCAAA35A80B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Db", "Db", "{1B23003B-D04C-4E8E-BC3F-20678BE6F33B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericApp.Entities", "GenericApp.Entities\GenericApp.Entities.csproj", "{EFD02C4A-608D-4C42-AB24-7C57A495DC85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericApp.Services", "GenericApp.Services\GenericApp.Services.csproj", "{6A2BB339-093E-46B4-9680-F7AA89E2B06B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericApp.Repositories", "GenericApp.Repositories\GenericApp.Repositories.csproj", "{3F5957B0-2111-4C19-BD64-97A5CE7B9544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericApp.WebApp", "GenericApp.WebApp\GenericApp.WebApp.csproj", "{9BB855DD-831A-4292-8833-E976B195D25A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericApp.WebApp.Tests", "GenericApp.WebApp.Tests\GenericApp.WebApp.Tests.csproj", "{B4DC3881-4DE4-429C-9EA2-5C8C0D647026}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Pattern", "Service.Pattern\Service.Pattern.csproj", "{86F86650-EE3C-4372-8FEC-40C2FE015022}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://alijouili.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Repository.Pattern\\Repository.Pattern.csproj
+		SccProjectTopLevelParentUniqueName1 = GenericApp-Solution.sln
+		SccProjectName1 = Repository.Pattern
+		SccLocalPath1 = Repository.Pattern
+		SccProjectUniqueName2 = Repository.Pattern.Ef6\\Repository.Pattern.Ef6.csproj
+		SccProjectTopLevelParentUniqueName2 = GenericApp-Solution.sln
+		SccProjectName2 = Repository.Pattern.Ef6
+		SccLocalPath2 = Repository.Pattern.Ef6
+		SccProjectUniqueName3 = GenericApp.Entities\\GenericApp.Entities.csproj
+		SccProjectTopLevelParentUniqueName3 = GenericApp-Solution.sln
+		SccProjectName3 = GenericApp.Entities
+		SccLocalPath3 = GenericApp.Entities
+		SccProjectUniqueName4 = GenericApp.Services\\GenericApp.Services.csproj
+		SccProjectTopLevelParentUniqueName4 = GenericApp-Solution.sln
+		SccProjectName4 = GenericApp.Services
+		SccLocalPath4 = GenericApp.Services
+		SccProjectUniqueName5 = GenericApp.Repositories\\GenericApp.Repositories.csproj
+		SccProjectTopLevelParentUniqueName5 = GenericApp-Solution.sln
+		SccProjectName5 = GenericApp.Repositories
+		SccLocalPath5 = GenericApp.Repositories
+		SccProjectUniqueName6 = GenericApp.WebApp\\GenericApp.WebApp.csproj
+		SccProjectName6 = GenericApp.WebApp
+		SccLocalPath6 = GenericApp.WebApp
+		SccProjectUniqueName7 = GenericApp.WebApp.Tests\\GenericApp.WebApp.Tests.csproj
+		SccProjectName7 = GenericApp.WebApp.Tests
+		SccLocalPath7 = GenericApp.WebApp.Tests
+		SccProjectUniqueName8 = Service.Pattern\\Service.Pattern.csproj
+		SccProjectTopLevelParentUniqueName8 = GenericApp-Solution.sln
+		SccProjectName8 = Service.Pattern
+		SccLocalPath8 = Service.Pattern
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E682A14-C872-4813-B620-76E108DEA683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E682A14-C872-4813-B620-76E108DEA683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E682A14-C872-4813-B620-76E108DEA683}.Debug|x86.ActiveCfg = Debug|x86
+		{6E682A14-C872-4813-B620-76E108DEA683}.Debug|x86.Build.0 = Debug|x86
+		{6E682A14-C872-4813-B620-76E108DEA683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E682A14-C872-4813-B620-76E108DEA683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E682A14-C872-4813-B620-76E108DEA683}.Release|x86.ActiveCfg = Release|x86
+		{6E682A14-C872-4813-B620-76E108DEA683}.Release|x86.Build.0 = Release|x86
+		{F68A1D19-93FB-47C1-A22B-42BEA3E4FD8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68A1D19-93FB-47C1-A22B-42BEA3E4FD8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68A1D19-93FB-47C1-A22B-42BEA3E4FD8C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F68A1D19-93FB-47C1-A22B-42BEA3E4FD8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68A1D19-93FB-47C1-A22B-42BEA3E4FD8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F68A1D19-93FB-47C1-A22B-42BEA3E4FD8C}.Release|x86.ActiveCfg = Release|Any CPU
+		{EFD02C4A-608D-4C42-AB24-7C57A495DC85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD02C4A-608D-4C42-AB24-7C57A495DC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD02C4A-608D-4C42-AB24-7C57A495DC85}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EFD02C4A-608D-4C42-AB24-7C57A495DC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD02C4A-608D-4C42-AB24-7C57A495DC85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFD02C4A-608D-4C42-AB24-7C57A495DC85}.Release|x86.ActiveCfg = Release|Any CPU
+		{6A2BB339-093E-46B4-9680-F7AA89E2B06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A2BB339-093E-46B4-9680-F7AA89E2B06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A2BB339-093E-46B4-9680-F7AA89E2B06B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6A2BB339-093E-46B4-9680-F7AA89E2B06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A2BB339-093E-46B4-9680-F7AA89E2B06B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A2BB339-093E-46B4-9680-F7AA89E2B06B}.Release|x86.ActiveCfg = Release|Any CPU
+		{3F5957B0-2111-4C19-BD64-97A5CE7B9544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F5957B0-2111-4C19-BD64-97A5CE7B9544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F5957B0-2111-4C19-BD64-97A5CE7B9544}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3F5957B0-2111-4C19-BD64-97A5CE7B9544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F5957B0-2111-4C19-BD64-97A5CE7B9544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F5957B0-2111-4C19-BD64-97A5CE7B9544}.Release|x86.ActiveCfg = Release|Any CPU
+		{9BB855DD-831A-4292-8833-E976B195D25A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB855DD-831A-4292-8833-E976B195D25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB855DD-831A-4292-8833-E976B195D25A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9BB855DD-831A-4292-8833-E976B195D25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB855DD-831A-4292-8833-E976B195D25A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BB855DD-831A-4292-8833-E976B195D25A}.Release|x86.ActiveCfg = Release|Any CPU
+		{B4DC3881-4DE4-429C-9EA2-5C8C0D647026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4DC3881-4DE4-429C-9EA2-5C8C0D647026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4DC3881-4DE4-429C-9EA2-5C8C0D647026}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B4DC3881-4DE4-429C-9EA2-5C8C0D647026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4DC3881-4DE4-429C-9EA2-5C8C0D647026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4DC3881-4DE4-429C-9EA2-5C8C0D647026}.Release|x86.ActiveCfg = Release|Any CPU
+		{86F86650-EE3C-4372-8FEC-40C2FE015022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F86650-EE3C-4372-8FEC-40C2FE015022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F86650-EE3C-4372-8FEC-40C2FE015022}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{86F86650-EE3C-4372-8FEC-40C2FE015022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F86650-EE3C-4372-8FEC-40C2FE015022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86F86650-EE3C-4372-8FEC-40C2FE015022}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E682A14-C872-4813-B620-76E108DEA683} = {D0606C08-AC51-48D9-BC7E-BDCAAA35A80B}
+		{F68A1D19-93FB-47C1-A22B-42BEA3E4FD8C} = {D0606C08-AC51-48D9-BC7E-BDCAAA35A80B}
+		{EFD02C4A-608D-4C42-AB24-7C57A495DC85} = {1B23003B-D04C-4E8E-BC3F-20678BE6F33B}
+		{6A2BB339-093E-46B4-9680-F7AA89E2B06B} = {1B23003B-D04C-4E8E-BC3F-20678BE6F33B}
+		{3F5957B0-2111-4C19-BD64-97A5CE7B9544} = {1B23003B-D04C-4E8E-BC3F-20678BE6F33B}
+		{86F86650-EE3C-4372-8FEC-40C2FE015022} = {D0606C08-AC51-48D9-BC7E-BDCAAA35A80B}
+	EndGlobalSection
+EndGlobal
